@@ -1,4 +1,4 @@
-# T-Bot Thai Language Practice Chatbot
+# Thai Bot - Practice Thai Conversation
 
 Thai Bot (T-Bot) is a free AI powered chatbot for practicing Thai conversation. 
 
