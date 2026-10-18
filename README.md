@@ -2,6 +2,8 @@
 
 ### Practice Thai conversation using AI
 
+<img src="images/image1.jpeg" alt="A bot and a traveller" width="500">
+
 Live Demo:<br>
 https://t-bot.woza.work/
 
