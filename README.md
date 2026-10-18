@@ -5,6 +5,7 @@ Thai Bot (T-Bot) is a free AI powered chatbot for practicing Thai conversation.
 <img src="images/image1.jpeg" alt="A bot and a traveller" width="500">
 
 Live Demo:<br>
+<img src="images/image2.png" alt="QR Code" width="150"> <br>
 https://t-bot.woza.work/
 
 <br>
