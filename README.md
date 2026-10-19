@@ -25,12 +25,6 @@ https://t-bot.woza.work/
 
 <br>
 
-## Notes
-- Testing has shown that the Qwen Flash models may not consistently produce the high level of Thai language accuracy needed to make this app robust. Replacing them with a more intelligent model like CLaude Sonnet may work better, but the token cost will be higher.
-
-
-<br>
-
 ## Detailed writeup
 
 A detailed project writeup is available in this repo:<br>
