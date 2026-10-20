@@ -1,0 +1,49 @@
+Claude Prompt (Upload this text file to Claude):
+
+I will be testing a chatbot. The test prompts are attached. Please review and stand by
+
+
+
+Test 1: Polite, male user, female bot
+
+Settings: You: Male, Bot: Female, Style: Polite
+Send: the Hello chip (สวัสดี)
+Expect: the correction shows สวัสดีครับ. The bot replies with ค่ะ/คะ and uses ดิฉัน or ฉัน, never ครับ or ผม. No alert appears.
+
+
+
+Test 2: Polite, female user, male bot
+
+Settings: You: Female, Bot: Male, Style: Polite. Clicking Bot: Male should show the voice alert once.
+Send: คุณกินข้าวหรือยัง
+Expect: the correction shows คุณกินข้าวหรือยังคะ. The bot replies with ครับ and uses ผม, never ค่ะ, คะ or ดิฉัน. The voice will still sound female, as the alert says.
+
+
+
+Test 3: Polite, male user, male bot, wrong particle
+
+Settings: You: Male, Bot: Male, Style: Polite
+Send: ผมหิวค่ะ
+Expect: the correction shows ผมหิวครับ. The bot replies with ครับ.
+
+
+
+Test 4: Casual, with a rude word
+
+Settings: You: Female, Bot: Female, Style: Casual
+Send: กูหิวข้าว
+Expect: the correction replaces กู with ฉัน or เรา, giving something like ฉันหิวข้าว. The bot replies casually with no ครับ/ค่ะ/คะ, using ฉัน or เรา and particles like นะ, ล่ะ or เหรอ.
+
+
+
+Test 5: Switching settings mid-chat
+
+Part 1:
+Settings: start with You: Female, Bot: Female, Style: Polite.
+Send: วันนี้อากาศดีมาก. The bot replies in female polite style (ค่ะ/คะ).
+
+Part 2:
+Then switch: Bot: Male (the alert shows only once per page visit, so it won’t appear again unless you reload), keep Polite, and send ขอบคุณ.
+Expect: the correction shows ขอบคุณค่ะ, since you’re still female. The bot’s next reply switches immediately to male style (ครับ, ผม) even though its previous reply used ค่ะ. This checks that the JSON settings line beats the bot copying its earlier replies.
+
+
