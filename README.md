@@ -9,6 +9,17 @@ Live Demo:<br>
 https://t-bot.woza.work/
 
 <br>
+<br>
+
+<img src="images/image4.png" alt="App mobile screenshot" height="500">
+
+<br>
+
+<img src="images/image3.png" alt="App desktop screenshot" height="500">
+<p>Minimalist mobile optimized UI</p>
+
+
+<br>
 
 ## Quick Info
 - Supports both voice and text inputs
