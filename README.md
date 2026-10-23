@@ -36,12 +36,18 @@ https://t-bot.woza.work/
 
 <br>
 
-## Detailed writeup
+## Deployment Notes
 
-A detailed project writeup is available in this repo:<br>
-https://github.com/vbookshelf/E-Bot-English-Practice-Chatbot
+- Add your OpenRouter API key to the ebot_config.ini.txt file before uploading to your web host server.
+- Change the name of the file from ebot_config.ini.txt to ebot_config.ini
+- For added security it's best to locate the ebot_config.ini file outside the web host root folder.
+
 <br>
+
+## References
+
+- List of Free Language Practice Chatbots<br>
+https://github.com/vbookshelf/List-of-Free-Language-Practice-Chatbots
+
 <br>
-
-
   
