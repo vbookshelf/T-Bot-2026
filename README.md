@@ -46,6 +46,9 @@ https://t-bot.woza.work/
 
 ## References
 
+- E-Bot English Practice Chatbot<br>
+https://github.com/vbookshelf/E-Bot-2026
+
 - List of Free Language Practice Chatbots<br>
 https://github.com/vbookshelf/List-of-Free-Language-Practice-Chatbots
 
